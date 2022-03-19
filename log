@@ -50,3 +50,9 @@ sá., 19 de mar. de 2022 11:15:24:
  tests:  5|4
 total_score: 25/70
 7cd7d65
+sá., 19 de mar. de 2022 11:18:13: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  6|4
+total_score: 25/70
+3c4580c
