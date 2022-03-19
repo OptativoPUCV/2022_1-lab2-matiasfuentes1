@@ -18,3 +18,9 @@ list.c:41:10: error: 'List {aka struct List}' has no member named 'curret'; did 
           ^~
 Compilation failed
 6d10d16
+sá., 19 de mar. de 2022 10:22:04: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 15/70
+8022a72
