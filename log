@@ -8,3 +8,13 @@ sá., 19 de mar. de 2022 10:18:55:
  tests:  1|5
 total_score: 10/70
 6f13d9f
+sá., 19 de mar. de 2022 10:21:46: 
+ list.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'firstList':
+list.c:41:10: error: 'List {aka struct List}' has no member named 'curret'; did you mean 'current'?
+     list -> curret = list ->head;
+          ^~
+Compilation failed
+6d10d16

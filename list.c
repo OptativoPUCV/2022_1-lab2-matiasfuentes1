@@ -38,7 +38,11 @@ List * createList() {
 }
 
 void * firstList(List * list) {
-    return NULL;
+    list -> curret = list ->head;
+    if(list -> head == NULL ){
+        return NULL;
+    }
+    return list -> head -> data;
 }
 
 void * nextList(List * list) {
