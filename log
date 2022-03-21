@@ -101,3 +101,9 @@ list.c:70:32: error: expected ';' before ':' token
                                 ^
 Compilation failed
 b92dc6e
+do., 20 de mar. de 2022 22:56:38: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  11|1
+total_score: 55/70
+f1fedfa
