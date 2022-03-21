@@ -91,3 +91,13 @@ do., 20 de mar. de 2022 21:36:33:
  tests:  10|2
 total_score: 45/70
 5be3401
+do., 20 de mar. de 2022 22:56:24: 
+ list.c | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:70:32: error: expected ';' before ':' token
+     nodo -> next = list -> head:
+                                ^
+Compilation failed
+b92dc6e
