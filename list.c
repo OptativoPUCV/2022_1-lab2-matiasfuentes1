@@ -77,13 +77,13 @@ void pushCurrent(List * list, void * data) {
     if(list -> current -> next == NULL ){
         list -> current -> next = nodo; 
     }else if(list -> current -> next -> next == NULL){
-        list -> tail = node;
-    }else list -> current -> next -> prev = node;
+        list -> tail = nodo;
+    }else list -> current -> next -> prev = nodo;
 
     list -> current -> next = nodo ;
     nodo -> next = list -> current -> next;
-    list -> current -> next -> prev = node;
-    node -> prev = list -> current;
+    list -> current -> next -> prev = nodo;
+    nodo -> prev = list -> current;
 
 }
 

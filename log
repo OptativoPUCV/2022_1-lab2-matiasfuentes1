@@ -73,3 +73,9 @@ list.c:80:24: error: 'node' undeclared (first use in this function)
 list.c:80:24: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 5cc78aa
+do., 20 de mar. de 2022 21:11:34: 
+ list.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ tests:  9|3
+total_score: 35/70
+4b98b50
