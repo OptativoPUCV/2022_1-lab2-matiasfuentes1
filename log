@@ -62,3 +62,14 @@ sá., 19 de mar. de 2022 11:20:55:
  tests:  9|3
 total_score: 35/70
 4645034
+do., 20 de mar. de 2022 21:10:32: 
+ list.c | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'pushCurrent':
+list.c:80:24: error: 'node' undeclared (first use in this function)
+         list -> tail = node;
+                        ^~~~
+list.c:80:24: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+5cc78aa
